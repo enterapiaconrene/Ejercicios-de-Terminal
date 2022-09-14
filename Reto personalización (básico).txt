@@ -1,0 +1,8 @@
+Reto personalización
+
+Puedes usar las preferencias de sistema para elegir los estilos de la terminal que más te gusten.
+
+También puedes usar aplicaciones que te ayudan a elevar el nivel de personalización, como:
+Hyper.js 
+
+La encuentras en https://hyper.is/

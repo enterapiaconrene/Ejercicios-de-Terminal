@@ -1,0 +1,63 @@
+Pwd "nos dice en que directorio estamos"
+Cd nombre del directorio "nos permite cambiar de directorio" 
+	(podemos usar Tab para autocompletar)
+Cd .. "nos permite ir al directorio anterior"
+Cd . "Nos permite quedarnos en el directorio actual"
+cd ~ "nos envia al directorio principal" (alt+ñ)
+Ls "enlista todos el contenido del directorio actual"
+	Los comandos pueden tener opciones o argumentos
+	ej. Ls -l "muestra los detalles del contenido"
+
+Echo "imprime lo que quieras en pantalla"
+Echo $HOME "te dice cual el tu directorio principal de mi usuario"
+
+Clear "se usa para limpiar la terminal"
+	ctrl+l o cmd+k también limpia la pantalla de la terminal
+
+mkdir nombre del directorio "crea un nuevo directorio"
+rmdir nombre del directorio "elimina el directorio"
+
+touch nombre del archovo.extensión "crea un archivo con esa extensión"
+	ej. Touch index.html, documento.txt, etc.
+Rm nombre del archivo.extensión "Eliminia el archivo"
+	ej. Touch index.html
+
+Nano nombre del archivo.extensión "abre el archivo en el editor de texto"
+
+More nombre del archovo.extensión "permite leer el contenido del archivo"
+
+Usar las teclas hacia arriba para explorar el historial de los últimos comandos utilizados
+history "nos alista el historial de los comandos utilizados"
+
+Man ls el comando man es manual y te da una explicación de los comandos
+	Sales del manual con ctrl+z
+
+Cal "muestra el calendario"
+
+Ping ip o dirección web "llama a una ip y dice la respuesta"
+	ctrl+c para parar el ping
+
+Top "muestra todos los procedimientos que se están ejecutando en la PC"
+	ctrl+c para para salir
+passwd "Cambia la contraseña del usuario. Las contraseñas deben cumplir las condiciones que se indican en el mismo o en las carteleras."
+
+cp "Copiar archivos o directorios. Para copiar un directorio se debe agregar el modificador "-r"."
+	cp <ARCHIVOS_ORIGEN> <DESTINO>
+	cp -r <DIRECTORIOS_ORIGEN> <DESTINO>
+
+du "Reporta el espacio de disco utilizado por archivos y directorios (du = disk usage). Este comando generalmente se utiliza de esta forma:"
+	du -ks <ARCHIVOS_O_DIRECTORIOS>
+
+eject "Extrae el CD-ROM."
+
+mount y umount "Estos dos comandos son necesarios para montar el disquete y el cd-rom y desmontar el disquete."
+	mount /media/cdrom
+	mount /media/floppy
+	mount /media/usbdisk
+	umount /media/floppy
+
+exit "Cierra la shell actual."
+
+
+
+

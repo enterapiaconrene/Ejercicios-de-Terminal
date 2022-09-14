@@ -1,0 +1,37 @@
+Reto de cambiar manuales a español
+
+En Ubntu se hace de estas manera, encuentra la forma de hacerlo en Mac:
+
+
+METODO 1)         Instalar desde los repositorios ejecutando en un terminal:
+
+$ sudo apt-get install manpages-es manpages-es-extra
+
+Puede salir este mensaje: To enable these manpages set LC_MESSAGES to ‘es’ (or es_ZZ where ZZ is your contry code). Man will then search for Spanish manpages under
+/usr/share/man/es.
+
+No hay que darle importancia porque se configuro automáticamente. Si lo quieres comprobar ejecuta en el terminal:
+
+$ sudo locale
+
+Para comprobar que lo realizo correctamente, vuelve a probar:
+
+$ man ls
+
+IMPORTANTE: Para salir del manual pulsa la letra «Q»
+
+
+METODO 2 )        A mano de la siguiente forma
+
+1) Descarga el archivo .tar.gz de la versión de tu ubuntu desde aqui. Para dar el ejemplo utilizare manpages-es_1.55.orig.tar.gz
+2) Ir a la carpeta donde se descargo. Normalmente /home/usuario y descomprimirlo con: $ tar xvf manpages-es_1.55.orig.tar.gz
+3) Entra en la carpeta que genero con: $ cd manpages-es_1.55.orig
+4) Ejecutar la instalación con: $ sudo make install
+
+Para comprobar que lo realizo correctamente, vuelve a probar:
+
+$ man mkdir
+
+IMPORTANTE: Para salir del manual pulsa la letra «Q»
+
+Hay otros manuales extra que puedes instalar de la misma manera descargando el que corresponda desde aqui.
